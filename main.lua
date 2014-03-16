@@ -22,8 +22,8 @@ local explosion_sheet = graphics. newImageSheet("images/explosion.png", {width=5
 -------------LOADED SOUNDS---------------
 -----------------------------------------
 
-local explosion_sound = audio.loadSound("sound/boom.wav")
-local ambient_sound = audio.loadStream("sound/ambient.aiff")
+local explosion_sound = audio.loadSound("sound/boom.mp3")
+local ambient_sound = audio.loadStream("sound/ambient.mp3")
 
 -----------------------------------------
 -------------PLAY AMBIENT SOUND----------
